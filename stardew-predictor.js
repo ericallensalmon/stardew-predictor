@@ -2339,6 +2339,9 @@ window.onload = function () {
 		519: 'Magnet Ring',
 	};
 
+	//hardcode the save version
+	save.version = "1.5"
+	
 	// Show input field immediately
 	$(document.getElementById('input-container')).show();
 
